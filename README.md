@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.0.0-purple?style=flat-square" alt="Version">
+  <img src="https://img.shields.io/badge/version-1.0.1-purple?style=flat-square" alt="Version">
   <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=flat-square" alt="Node">
   <img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square" alt="PRs Welcome">
   <img src="https://img.shields.io/badge/⭐-Star%20us!-yellow?style=flat-square" alt="Star">
@@ -101,18 +101,39 @@ IJE breaks the barrier of English-only programming. Write code in your native la
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Installation & Quick Start
 
-```bash
-# Install
-npm install -g ije-cli
+### Option 1: Download Binary (Recommended)
+Download `ije.exe` from the [Latest Release](https://github.com/ijesudhode/ije/releases).
 
-# Create your first program
-echo 'da("Hello, IJE!")' > hello.ije
-
-# Run it!
-ije hello.ije
+**WinGet (Coming Soon):**
+```powershell
+winget install IJe.IJe
 ```
+
+### Option 2: Build from Source
+```bash
+# Clone
+git clone https://github.com/ijesudhode/ije
+cd ije
+
+# Install dependencies
+npm install
+
+# Build & Run
+npm run build
+node dist/cli.js hello.ije
+```
+
+### Run Your First Program
+1. Create `hello.ije`:
+   ```ije
+   da("Hello, IJE!")
+   ```
+2. Run it:
+   ```bash
+   ije hello.ije
+   ```
 
 ---
 
@@ -285,7 +306,7 @@ code --install-extension ije-extension/ije-language-2.0.0.vsix
 Contributions are welcome! See our [Contributing Guide](./CONTRIBUTING.md).
 
 ```bash
-git clone https://github.com/ije-lang/ije
+git clone https://github.com/ijesudhode/ije
 cd ije
 npm install
 npm test
@@ -307,5 +328,5 @@ MIT License - feel free to use in personal and commercial projects.
 
 <p align="center">
   <strong>🚀 Start coding with IJE today!</strong><br>
-  <code>npm install -g ije-cli</code>
+  Check out the <a href="https://github.com/ijesudhode/ije/releases">Releases</a>
 </p>

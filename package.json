@@ -33,11 +33,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ije-lang/ije"
+        "url": "https://github.com/ijesudhode/ije"
     },
-    "homepage": "https://github.com/ije-lang/ije#readme",
+    "homepage": "https://github.com/ijesudhode/ije#readme",
     "bugs": {
-        "url": "https://github.com/ije-lang/ije/issues"
+        "url": "https://github.com/ijesudhode/ije/issues"
     },
     "engines": {
         "node": ">=18.0.0"

@@ -1,7 +1,7 @@
 {
     "name": "ije-cli",
     "version": "1.0.1",
-    "description": "IJe CLI - Thai Programming Language 🇹🇭 with Thai keywords (da, kian, tha, wonn)",
+    "description": "Just a programming language I made. It works.",
     "author": "IJe Team",
     "license": "MIT",
     "main": "dist/cli.js",

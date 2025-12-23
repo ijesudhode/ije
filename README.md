@@ -1,74 +1,49 @@
-```
-    ██╗     ██╗███████╗
-    ██║     ██║██╔════╝
-    ██║     ██║█████╗  
-    ██║██   ██║██╔══╝  
-    ██║╚█████╔╝███████╗
-    ╚═╝ ╚════╝ ╚══════╝
-    The Future of Programming
-    🌏 Universal • 🚀 Fast • 💡 Intuitive
-```
+# IJe
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.1-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square">
-  <img src="https://img.shields.io/badge/PRs-welcome-orange?style=flat-square">
-</p>
+<div align="center">
 
-> **"Programming should be accessible to everyone, in any language."**
+![Version](https://img.shields.io/badge/version-1.0.1-black?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-black?style=for-the-badge)
 
-IJe breaks the barrier of English-only programming. Write code in your native language while maintaining the power of modern programming paradigms.
+</div>
 
----
+> "Go try it its not that good but i just make it anyway so try it"
 
-## ⚡ The Power of Simplicity
+I made this programming language because I wanted to. It works.
+
+## ❓ What is this?
+It's a programming language with its own custom keywords. You can write code in it. It has a compiler and an interpreter. It does the job.
+
+## 💻 The Code
+It looks like this:
 
 ```ije
-// 🚀 Classes, Functions, and Native Keywords
-klum Rocket
-    kian launch(destination)
-        da("🚀 Launching to " + destination + "...")
-        wonn fuel > 0
-            da("🔥 Burning fuel: " + fuel)
-            fuel = fuel - 20
-        job
-        da("✨ Arrived at " + destination + "!")
-    job
+// Just a simple function
+kian hello()
+    da("Hello world, i guess")
 job
 
-// 🎮 Simple Usage
-ao ship = mai Rocket()
-ship.fuel = 100
-ship.launch("Mars")
+hello()
 ```
 
----
-
-## 🚀 Get Started
-
-### Download
-Grab the latest `ije.exe` from [**Releases**](https://github.com/ijesudhode/ije/releases).
-
-### Install via WinGet (Coming Soon)
-```powershell
-winget install IJe.IJe
-```
-
----
+## 🛠️ How to use
+1. **Download** `ije.exe` from Releases.
+2. **Run** your code:
+   ```bash
+   ije file.ije
+   ```
+3. That's it. No complicated setup.
 
 ## ✨ Features
+- **Custom Keywords**: Uses things like `kian`, `da`, `tha`.
+- **It Runs**: Compiles and interprets your code (mostly).
+- **IDE Support**: There's a VS Code extension if you really need it.
+- **Package Manager**: Yeah, I added one of those too.
 
-| Feature | Description |
-| :--- | :--- |
-| **🗣️ Intuitive Syntax** | Native Thai keywords (`da`, `kian`, `tha`) make coding natural. |
-| **⚡ Blazing Fast** | Custom Bytecode VM optimized for performance. |
-| **📦 Smart Package Manager** | Built-in module system for dependency management. |
-| **🎨 Full IDE Support** | VS Code extension with IntelliSense, Formatting, and Debugging. |
-| **🛠️ Powerful Tooling** | Includes REPL, Linter, Formatter, and Testing Framework. |
+## 📥 Install
+Download the binary from the [Releases page](https://github.com/ijesudhode/ije/releases).
 
 ---
-
-<p align="center">
-  Made with ❤️ by the IJe Team<br/>
-  <a href="https://github.com/ijesudhode/ije">GitHub</a> • <a href="https://github.com/ijesudhode/ije/issues">Issues</a>
-</p>
+<div align="center">
+i dont know what else to put here. just try it.
+</div>
